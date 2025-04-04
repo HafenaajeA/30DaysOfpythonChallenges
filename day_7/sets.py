@@ -51,3 +51,6 @@ unique_words = set(words)  # Convert the list of words to a set to get unique wo
 print(f"Total words: {len(words)}")
 print(f"Unique words: {len(unique_words)}")
 print("The unique words are:", unique_words)
+
+
+#Aweesome Python. Love what i'm seeing.
