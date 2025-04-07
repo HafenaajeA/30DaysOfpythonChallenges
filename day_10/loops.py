@@ -1,7 +1,7 @@
 # Day 10 of 30 python challenges
 
 
-for i in range(0, 11):
+for i in range(0, 12):
      print(i)
 
 
