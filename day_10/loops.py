@@ -112,3 +112,10 @@ most_spoken = language_counter.most_common(10)
 print("Ten most spoken languages:")
 for lang, count in most_spoken:
     print(f"{lang}: {count}")
+
+
+sorted_countries = sorted(countries_data, key=lambda x: x['population'], reverse=True)
+
+print("Ten most populated countries:")
+for country in sorted_countries[:10]:
+    print(f"{country['name']}: {country['population']}")
